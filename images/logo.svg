@@ -1,0 +1,28 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E3A5F"></stop>
+      <stop offset="100%" stop-color="#3D5A80"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="110" cy="110" r="100" fill="url(#grad)"></circle>
+
+  <!-- Outer Ring -->
+  <circle cx="110" cy="110" r="92" stroke="#FFFFFF" stroke-width="4" opacity="0.4"></circle>
+
+  <!-- Initials -->
+  <text x="50%" y="52%" text-anchor="middle" fill="#FFFFFF" font-size="72" font-family="Poppins, Arial, sans-serif" font-weight="700" dy=".3em">
+    ET
+  </text>
+
+  <!-- Tech Accent Line -->
+  <path d="M55 165 L165 165" stroke="#90BE6D" stroke-width="6" stroke-linecap="round"></path>
+
+  <!-- Decorative Dots -->
+  <circle cx="60" cy="60" r="5" fill="#90BE6D"></circle>
+  <circle cx="160" cy="60" r="5" fill="#90BE6D"></circle>
+  <circle cx="60" cy="160" r="5" fill="#90BE6D"></circle>
+  <circle cx="160" cy="160" r="5" fill="#90BE6D"></circle>
+</svg>

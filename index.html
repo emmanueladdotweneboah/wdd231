@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 - Emmanuel Tweneboah</title>
+
+    <meta name="description" content="WDD231 Course Home Page">
+    <meta name="author" content="Emmanuel Tweneboah">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="60">
+        <span>Emmanuel Tweneboah</span>
+
+        <button id="menu"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a Software Development student at BYU-Idaho with interests in web development, occupational
+                therapy, and technology.
+            </p>
+        </section>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p id="credits"></p>
+
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Student photo">
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="socials">
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="https://facebook.com/">Facebook</a>
+        </div>
+
+        <p>
+            &copy; <span id="year"></span> Emmanuel Tweneboah | Ghana
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>
