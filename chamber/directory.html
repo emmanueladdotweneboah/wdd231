@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accra Chamber of Commerce Directory</title>
+    <meta name="description" content="Directory page for the Accra Chamber of Commerce.">
+    <meta name="author" content="Emmanuel Tweneboah">
+
+    <!-- Facebook Meta -->
+    <meta property="og:title" content="Accra Chamber of Commerce">
+    <meta property="og:description" content="Business directory for the Accra Chamber of Commerce">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://emmanueladdotweneboah.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-area">
+        <img src="images/logo.png" alt="Chamber Logo">
+        <h1>Accra Chamber of Commerce</h1>
+    </div>
+
+    <button id="menu"></button>
+
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Discover</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Business Directory</h2>
+
+    <div class="view-buttons">
+        <button id="gridBtn">Grid View</button>
+        <button id="listBtn">List View</button>
+    </div>
+
+    <section id="members" class="grid"></section>
+</main>
+
+<footer>
+    <p>Accra Chamber of Commerce</p>
+    <p>Email: info@accrachamber.org</p>
+    <p>Phone: +233 20 000 0000</p>
+
+    <p>
+        &copy; <span id="year"></span> Emmanuel Tweneboah | WDD 231
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

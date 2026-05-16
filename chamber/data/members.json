@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Tech Ghana Ltd",
+        "address": "Accra, Ghana",
+        "phone": "+233 24 111 1111",
+        "website": "https://techghana.com",
+        "image": "business1.webp",
+        "membership": 3,
+        "description": "Technology solutions company."
+    },
+
+    {
+        "name": "Adenta Pharmacy",
+        "address": "Adenta, Accra",
+        "phone": "+233 24 222 2222",
+        "website": "https://adentapharmacy.com",
+        "image": "business2.webp",
+        "membership": 2,
+        "description": "Healthcare and pharmacy services."
+    },
+
+    {
+        "name": "Golden Foods",
+        "address": "Tema, Ghana",
+        "phone": "+233 24 333 3333",
+        "website": "https://goldenfoods.com",
+        "image": "business3.webp",
+        "membership": 1,
+        "description": "Food distribution company."
+    },
+
+    {
+        "name": "Skyline Construction",
+        "address": "East Legon",
+        "phone": "+233 24 444 4444",
+        "website": "https://skylinebuild.com",
+        "image": "business4.webp",
+        "membership": 3,
+        "description": "Construction and engineering services."
+    },
+
+    {
+        "name": "Vision Media",
+        "address": "Osu, Accra",
+        "phone": "+233 24 555 5555",
+        "website": "https://visionmedia.com",
+        "image": "business5.webp",
+        "membership": 2,
+        "description": "Media and advertising company."
+    },
+
+    {
+        "name": "Elite Fashion",
+        "address": "Spintex",
+        "phone": "+233 24 666 6666",
+        "website": "https://elitefashion.com",
+        "image": "business6.webp",
+        "membership": 1,
+        "description": "Fashion and apparel business."
+    },
+
+    {
+        "name": "Prime Logistics",
+        "address": "Tema Harbour",
+        "phone": "+233 24 777 7777",
+        "website": "https://primelogistics.com",
+        "image": "business7.webp",
+        "membership": 3,
+        "description": "Shipping and logistics services."
+    }
+]
