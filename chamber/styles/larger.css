@@ -21,5 +21,11 @@
             repeat(3, 1fr);
 
     }
+        .home-grid {
+    
+            grid-template-columns:
+                1fr 1fr 1fr;
+    
+        }
 
 }

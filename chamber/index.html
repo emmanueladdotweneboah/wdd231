@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accra Chamber of Commerce</title>
+
+    <meta name="description" content="Accra Chamber Home Page">
+
+    <meta name="author" content="Emmanuel Tweneboah">
+
+    <meta property="og:title" content="Accra Chamber">
+
+    <meta property="og:description" content="Welcome to Accra Chamber">
+
+    <meta property="og:image" content="images/logo.png">
+
+    <meta property="og:url" content="https://emmanueladdotweneboah.github.io/wdd231/chamber">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/small.css">
+
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/home.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo-area">
+
+            <img src="images/logo.png" alt="logo">
+
+            <h1>
+                Accra Chamber of Commerce
+            </h1>
+
+        </div>
+
+        <button id="menuBtn">
+
+            &#9776;
+
+        </button>
+
+        <nav id="navMenu">
+
+            <a class="active" href="index.html">
+                Home
+            </a>
+
+            <a href="directory.html">
+                Directory
+            </a>
+
+            <a href="join.html">
+                Join
+            </a>
+
+            <a href="discover.html">
+                Discover
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <img src="images/hero.webp" alt="Accra business district">
+
+            <div class="hero-text">
+
+                <h2>
+                    Grow Your Business
+                </h2>
+
+                <a class="cta" href="join.html">
+
+                    Join The Chamber
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <div class="home-grid">
+
+            <section>
+
+                <h2>
+                    Current Events
+                </h2>
+
+                <p>
+                    Business Expo coming this month in Accra.
+                    Network with local companies and investors.
+                </p>
+
+            </section>
+
+
+            <section class="weather">
+
+                <h2>
+                    Weather
+                </h2>
+
+                <p id="temp"></p>
+
+                <p id="description"></p>
+
+                <div id="forecast">
+
+                </div>
+
+            </section>
+
+
+            <section>
+
+                <h2>
+                    Business Spotlights
+                </h2>
+
+                <div id="spotlights">
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Accra Chamber of Commerce
+        </p>
+
+        <p>
+            info@accrachamber.org
+        </p>
+
+        <p>
+            +233 20 0000000
+        </p>
+
+        <p>
+
+            © <span id="year"></span>
+
+            Emmanuel Tweneboah | WDD231
+
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

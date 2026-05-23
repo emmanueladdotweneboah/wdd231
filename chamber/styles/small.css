@@ -121,5 +121,66 @@ main {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.hero {
+
+    position: relative;
+
+}
+
+.hero img {
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.hero-text {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    text-align: center;
+
+}
+
+.cta {
+
+    display: inline-block;
+
+    padding: 1rem;
+
+    background: #fcbf49;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+}
+
+.home-grid {
+
+    display: grid;
+    gap: 1rem;
+
+}
+
+.weather,
+#spotlights section {
+
+    border: 1px solid #ccc;
+
+    padding: 1rem;
+
+    border-radius: 10px;
 
 }
