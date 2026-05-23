@@ -1,69 +1,125 @@
 :root {
+
     --primary: #003049;
     --secondary: #669bbc;
     --accent: #fcbf49;
+
 }
 
 body {
+
     font-family: Arial, sans-serif;
     margin: 0;
+
 }
 
 header,
 footer {
-    background-color: var(--primary);
+
+    background: var(--primary);
     color: white;
     padding: 1rem;
+
 }
 
 .logo-area {
+
     display: flex;
     align-items: center;
     gap: 1rem;
+
 }
 
 .logo-area img {
-    width: 60px;
+
+    width: 50px;
+
 }
 
-.navigation {
-    display: flex;
+
+/* Hamburger */
+
+#menuBtn {
+
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+#navMenu {
+
+    display: none;
     flex-direction: column;
+
 }
 
-.navigation a {
+#navMenu.open {
+
+    display: flex;
+
+}
+
+#navMenu a {
+
     color: white;
     text-decoration: none;
-    padding: .5rem;
+    padding: .7rem;
+
+}
+
+/* Wayfinding */
+
+.active {
+
+    background-color: var(--accent);
+    color: black;
+    border-radius: 5px;
+
 }
 
 main {
-    padding: 1rem;
-}
 
-.view-buttons {
-    margin-bottom: 1rem;
+    padding: 1rem;
+
 }
 
 #members.grid {
+
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+
 }
 
 #members.list {
+
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+
+}
+
+/* IMPORTANT FIX */
+
+#members.list img {
+
+    display: none;
+
 }
 
 #members section {
+
     border: 1px solid #ccc;
     padding: 1rem;
-    border-radius: 10px;
+
 }
 
 #members img {
+
     width: 100%;
-    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+
 }
