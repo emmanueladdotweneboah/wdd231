@@ -1,31 +1,24 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
 
+    /* NAV */
     #menuBtn {
-
         display: none;
-
     }
 
     #navMenu {
-
         display: flex;
         flex-direction: row;
-
         gap: 1rem;
-
     }
 
-    #members.grid {
-
-        grid-template-columns:
-            repeat(3, 1fr);
-
+    /* HOME GRID */
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
-        .home-grid {
-    
-            grid-template-columns:
-                1fr 1fr 1fr;
-    
-        }
+
+    /* SPOTLIGHT RESPONSIVE FIX */
+    #spotlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
