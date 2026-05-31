@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/small.css">
+
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script defer>
+
+        window.addEventListener("DOMContentLoaded", () => {
+
+            const params =
+                new URLSearchParams(window.location.search);
+
+            document.querySelector("#results").innerHTML = `
+
+<p><strong>First Name:</strong>
+${params.get("firstname")}</p>
+
+<p><strong>Last Name:</strong>
+${params.get("lastname")}</p>
+
+<p><strong>Email:</strong>
+${params.get("email")}</p>
+
+<p><strong>Phone:</strong>
+${params.get("phone")}</p>
+
+<p><strong>Business:</strong>
+${params.get("business")}</p>
+
+<p><strong>Timestamp:</strong>
+${params.get("timestamp")}</p>
+
+`;
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo-area">
+            <img src="images/logo.png" alt="logo">
+            <h1>Accra Chamber of Commerce</h1>
+        </div>
+
+    </header>
+
+    <main>
+
+        <h2>Thank You For Applying</h2>
+
+        <p>
+            Your application has been received.
+        </p>
+
+        <div id="results"></div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © <span id="year"></span>
+            Emmanuel Tweneboah
+        </p>
+
+    </footer>
+
+    <script>
+        document.querySelector("#year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

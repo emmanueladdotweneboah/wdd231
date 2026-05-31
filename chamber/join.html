@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Join the Chamber</title>
+
+<meta name="description" content="Join the Accra Chamber of Commerce">
+<meta name="author" content="Emmanuel Tweneboah">
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<script src="scripts/join.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-area">
+<img src="images/logo.png" alt="Chamber Logo">
+<h1>Accra Chamber of Commerce</h1>
+</div>
+
+<button id="menuBtn">&#9776;</button>
+
+<nav id="navMenu">
+
+<a href="index.html">Home</a>
+
+<a href="directory.html">Directory</a>
+
+<a href="join.html" class="active">Join</a>
+
+<a href="discover.html">Discover</a>
+
+</nav>
+
+</header>
+
+<main class="join-container">
+
+<section class="form-section">
+
+<h2>Membership Application</h2>
+
+<form method="get" action="thankyou.html">
+
+<label>
+First Name
+<input
+type="text"
+name="firstname"
+required
+title="Enter your first name"
+autocomplete="given-name">
+</label>
+
+<label>
+Last Name
+<input
+type="text"
+name="lastname"
+required
+title="Enter your last name"
+autocomplete="family-name">
+</label>
+
+<label>
+Organizational Title
+<input
+type="text"
+name="organizationtitle"
+title="Organization Title"
+autocomplete="organization-title"
+pattern="[A-Za-z\s\-]{7,}">
+</label>
+
+<label>
+Email
+<input
+type="email"
+name="email"
+required
+title="Email Address"
+autocomplete="email"
+placeholder="example@email.com">
+</label>
+
+<label>
+Mobile Phone
+<input
+type="tel"
+name="phone"
+required
+title="Mobile Phone"
+autocomplete="tel">
+</label>
+
+<label>
+Business Name
+<input
+type="text"
+name="business"
+required
+title="Business Name"
+autocomplete="organization">
+</label>
+
+<label>
+Membership Level
+<select name="membership">
+
+<option value="np">NP Membership</option>
+
+<option value="bronze">Bronze Membership</option>
+
+<option value="silver">Silver Membership</option>
+
+<option value="gold">Gold Membership</option>
+
+</select>
+</label>
+
+<label>
+Business Description
+<textarea
+name="description"
+title="Business Description"></textarea>
+</label>
+
+<input
+type="hidden"
+id="timestamp"
+name="timestamp">
+
+<input
+type="submit"
+value="Apply for Membership">
+
+</form>
+
+</section>
+
+<section class="membership-cards">
+
+<div class="membership-card">
+<h3>NP Membership</h3>
+<a href="#" onclick="document.getElementById('npModal').showModal()">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h3>Bronze Membership</h3>
+<a href="#" onclick="document.getElementById('bronzeModal').showModal()">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h3>Silver Membership</h3>
+<a href="#" onclick="document.getElementById('silverModal').showModal()">
+View Benefits
+</a>
+</div>
+
+<div class="membership-card">
+<h3>Gold Membership</h3>
+<a href="#" onclick="document.getElementById('goldModal').showModal()">
+View Benefits
+</a>
+</div>
+
+</section>
+
+</main>
+
+<!-- MODALS -->
+
+<dialog id="npModal">
+<h3>NP Membership</h3>
+<p>No membership fee.</p>
+<p>Networking opportunities.</p>
+<button onclick="npModal.close()">Close</button>
+</dialog>
+
+<dialog id="bronzeModal">
+<h3>Bronze Membership</h3>
+<p>Business listing.</p>
+<p>Member events access.</p>
+<button onclick="bronzeModal.close()">Close</button>
+</dialog>
+
+<dialog id="silverModal">
+<h3>Silver Membership</h3>
+<p>Advertising opportunities.</p>
+<p>Training discounts.</p>
+<button onclick="silverModal.close()">Close</button>
+</dialog>
+
+<dialog id="goldModal">
+<h3>Gold Membership</h3>
+<p>Homepage spotlight eligibility.</p>
+<p>Premium event discounts.</p>
+<p>Priority advertising.</p>
+<button onclick="goldModal.close()">Close</button>
+</dialog>
+
+<footer>
+
+<p>Accra Chamber of Commerce</p>
+
+<p>info@accrachamber.org</p>
+
+<p>+233 20 0000000</p>
+
+<p>
+© <span id="year"></span>
+Emmanuel Tweneboah | WDD 231
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
