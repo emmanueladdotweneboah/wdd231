@@ -26,3 +26,51 @@
     grid-template-columns: 2fr 1fr;
     align-items: start;
 }
+/* MEDIUM VIEW */
+
+@media screen and (min-width:641px) {
+
+    .discover-grid {
+
+        grid-template-areas:
+
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+
+        grid-template-columns:
+            1fr 1fr;
+
+    }
+
+}
+
+/* LARGE VIEW */
+
+@media screen and (min-width:1025px) {
+
+    .discover-grid {
+
+        grid-template-areas:
+
+            "card1 card1 card2 card3"
+            "card4 card5 card6 card6"
+            "card7 card8 card8 card8";
+
+        grid-template-columns:
+            repeat(4, 1fr);
+
+    }
+
+    .discover-grid img:hover {
+
+        transform: scale(1.05);
+
+        filter: brightness(110%);
+
+        transition: .4s;
+
+    }
+
+}
