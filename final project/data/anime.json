@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "title": "Attack on Titan",
+        "genre": "Action",
+        "rating": 9.1,
+        "year": 2013,
+        "image": "images/aot.webp",
+        "description": "Humanity struggles to survive against gigantic Titans behind massive walls."
+    },
+    {
+        "id": 2,
+        "title": "Demon Slayer",
+        "genre": "Adventure",
+        "rating": 8.7,
+        "year": 2019,
+        "image": "images/ds.webp",
+        "description": "Tanjiro joins the Demon Slayer Corps to save his sister and defeat demons."
+    },
+    {
+        "id": 3,
+        "title": "Jujutsu Kaisen",
+        "genre": "Action",
+        "rating": 8.8,
+        "year": 2020,
+        "image": "images/jjk.webp",
+        "description": "Yuji Itadori enters the world of curses after swallowing a cursed object."
+    },
+    {
+        "id": 4,
+        "title": "Naruto",
+        "genre": "Adventure",
+        "rating": 8.4,
+        "year": 2002,
+        "image": "images/naruto.webp",
+        "description": "A young ninja dreams of becoming the strongest leader of his village."
+    },
+    {
+        "id": 5,
+        "title": "One Piece",
+        "genre": "Adventure",
+        "rating": 9.0,
+        "year": 1999,
+        "image": "images/onepiece.webp",
+        "description": "Monkey D. Luffy sails the seas searching for the legendary One Piece treasure."
+    },
+    {
+        "id": 6,
+        "title": "Death Note",
+        "genre": "Thriller",
+        "rating": 9.0,
+        "year": 2006,
+        "image": "images/deathnote.webp",
+        "description": "A student discovers a notebook that can kill anyone whose name is written in it."
+    },
+    {
+        "id": 7,
+        "title": "Bleach",
+        "genre": "Action",
+        "rating": 8.2,
+        "year": 2004,
+        "image": "images/bleach.webp",
+        "description": "Ichigo Kurosaki gains Soul Reaper powers and protects the living from evil spirits."
+    },
+    {
+        "id": 8,
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "genre": "Fantasy",
+        "rating": 9.2,
+        "year": 2009,
+        "image": "images/fmab.webp",
+        "description": "Two brothers search for the Philosopher's Stone after a failed alchemy experiment."
+    },
+    {
+        "id": 9,
+        "title": "Hunter x Hunter",
+        "genre": "Adventure",
+        "rating": 9.0,
+        "year": 2011,
+        "image": "images/hxh.webp",
+        "description": "Gon Freecss sets out to become a Hunter and find his father."
+    },
+    {
+        "id": 10,
+        "title": "My Hero Academia",
+        "genre": "Superhero",
+        "rating": 8.4,
+        "year": 2016,
+        "image": "images/mha.webp",
+        "description": "A powerless boy enters a superhero academy after inheriting an incredible power."
+    },
+    {
+        "id": 11,
+        "title": "Tokyo Ghoul",
+        "genre": "Horror",
+        "rating": 8.0,
+        "year": 2014,
+        "image": "images/tokyoghoul.webp",
+        "description": "Ken Kaneki becomes half-ghoul and struggles between two worlds."
+    },
+    {
+        "id": 12,
+        "title": "Chainsaw Man",
+        "genre": "Action",
+        "rating": 8.7,
+        "year": 2022,
+        "image": "images/chainsawman.webp",
+        "description": "Denji gains chainsaw powers and fights deadly devils."
+    },
+    {
+        "id": 13,
+        "title": "Black Clover",
+        "genre": "Fantasy",
+        "rating": 8.3,
+        "year": 2017,
+        "image": "images/blackclover.webp",
+        "description": "Asta seeks to become the Wizard King despite having no magical abilities."
+    },
+    {
+        "id": 14,
+        "title": "Solo Leveling",
+        "genre": "Fantasy",
+        "rating": 8.9,
+        "year": 2024,
+        "image": "images/sololeveling.webp",
+        "description": "The world's weakest hunter gains a mysterious power that lets him level up."
+    },
+    {
+        "id": 15,
+        "title": "Spy x Family",
+        "genre": "Comedy",
+        "rating": 8.5,
+        "year": 2022,
+        "image": "images/spyfamily.webp",
+        "description": "A spy, assassin, and telepath form an unusual family."
+    }
+]

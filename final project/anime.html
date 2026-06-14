@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anime Explorer | Directory</title>
+
+    <meta name="description" content="Browse popular anime series, search titles, view details, and save favorites.">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Anime Explorer Directory">
+    <meta property="og:description" content="Browse and discover anime series.">
+    <meta property="og:image" content="images/hero.webp">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <script type="module" src="js/main.js" defer></script>
+    <script type="module" src="js/anime.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            Anime Explorer
+        </div>
+
+        <button id="menuButton" aria-label="Open Navigation Menu">
+            ☰
+        </button>
+
+        <nav id="navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="anime.html" class="active">
+                Directory
+            </a>
+
+            <a href="favorites.html">
+                Favorites
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Anime Directory</h1>
+
+        <p>
+            Search through our collection of anime and
+            save your favorites for later.
+        </p>
+
+        <input type="search" id="search" placeholder="Search anime..." aria-label="Search Anime">
+
+        <section id="animeContainer" class="anime-grid">
+
+            <!-- JavaScript generates anime cards here -->
+
+        </section>
+
+        <!-- Accessible Modal -->
+
+        <dialog id="animeModal" aria-labelledby="modalTitle">
+
+            <h2 id="modalTitle">
+                Anime Title
+            </h2>
+
+            <p id="modalDescription">
+                Anime description appears here.
+            </p>
+
+            <button id="closeModal" aria-label="Close Dialog">
+                Close
+            </button>
+
+        </dialog>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Anime Explorer
+        </p>
+
+        <p>
+            <a href="attributions.html">
+                Attributions
+            </a>
+        </p>
+
+        <p>
+            <a href="YOUR_VIDEO_LINK_HERE" target="_blank">
+                Project Demonstration Video
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

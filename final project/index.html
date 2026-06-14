@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anime Explorer | Home</title>
+
+    <meta name="description"
+        content="Discover popular anime series, learn about your favorite shows, and build your personal anime collection.">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Anime Explorer">
+    <meta property="og:description" content="Explore popular anime and save your favorites.">
+    <meta property="og:image" content="images/hero.webp">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <script type="module" src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            Anime Explorer
+        </div>
+
+        <button id="menuButton" aria-label="Open Navigation Menu">
+            ☰
+        </button>
+
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="anime.html">Directory</a>
+            <a href="favorites.html">Favorites</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <img src="images/hero.webp" alt="Anime collage" loading="lazy" width="1200" height="700">
+
+            <div class="hero-text">
+
+                <h1>Explore the World of Anime</h1>
+
+                <p>
+                    Discover exciting adventures, legendary heroes,
+                    unforgettable stories, and your next favorite anime.
+                </p>
+
+                <a href="anime.html" class="button">
+                    Browse Anime
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="about">
+
+            <h2>About Anime Explorer</h2>
+
+            <p>
+                Anime Explorer is designed for anime fans who want
+                a simple way to discover new series, learn details
+                about popular shows, and build a personal favorites
+                collection.
+            </p>
+
+        </section>
+
+        <section class="features">
+
+            <div class="card">
+                <h3>15+ Anime Titles</h3>
+                <p>
+                    Browse a growing collection of popular anime.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Save Favorites</h3>
+                <p>
+                    Build your own personal anime watch list.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Learn More</h3>
+                <p>
+                    Open detailed descriptions through modal dialogs.
+                </p>
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Recommend an Anime</h2>
+
+            <form action="thanks.html" method="get">
+
+                <label>
+                    Anime Name
+
+                    <input type="text" name="anime" required>
+                </label>
+
+                <label>
+                    Your Name
+
+                    <input type="text" name="username" required>
+                </label>
+
+                <button type="submit">
+                    Submit Recommendation
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Anime Explorer
+        </p>
+
+        <p>
+            <a href="attributions.html">
+                Attributions
+            </a>
+        </p>
+
+        <p>
+            <a href="YOUR_VIDEO_LINK_HERE" target="_blank">
+                Project Demonstration Video
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
